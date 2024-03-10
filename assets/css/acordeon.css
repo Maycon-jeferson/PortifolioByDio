@@ -36,7 +36,7 @@
     display: inline-block;
     height: 1.5rem;
     width: 1.5rem;
-    background: url(/assets/image/icon/arrow.svg) no-repeat;
+    background: url(../image/icon/arrow.svg) no-repeat;
     background-size: contain;
 
     transition: .25s;
