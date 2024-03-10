@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Portifolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        
+        <link rel="stylesheet" href="assets/css/global.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="/assets/css/acordeon.css">
+        <link rel="stylesheet" href="/assets/css/lenguages.css">
+        <link rel="stylesheet" href="/assets/css/portifolio.css">
+        <link rel="stylesheet" href="/assets/css/experiencia.css">
+        <link rel="stylesheet" href="/assets/css/skills.css">
+
+    </head>
+    <body>
+
+        <div class="main">
+            <header class="header">
+                <img class="photo" id="profile.photo" src="/assets/image/Perfil.jpg" alt="perifl" width="350px">
+
+                <h1 class="title">Ola, <br> eu sou <span id="profile.name">loading...</span></h1>
+
+                <div class="information">
+                    <p class="job"  id="profile.job">loading...</p>
+                    <P class="location" id="profile.location">loading...</P>
+                    <p class="phone" id="profile.phone">
+                        <a href="tel:(47) 99600-0000">
+                            loading...
+                        </a>
+                    </p>
+                    <p class="email" id="profile.email">
+                        <a href="mailto:jefersonmayconX@gmail.com">
+                            loading...
+                        </a>
+                    </p>
+                </div>
+            </header>
+
+            <div>
+                <section class="acordeon">
+                    <button class="trigger">
+                            Skills
+                    </button>
+
+                    <div class="content">
+                        <div class="skills">
+                            <section class="tools">
+                                <h3>Habilidades profissionais:</h3>
+                                <ul id="profile.skills.hardSkills">
+                                    
+                                </ul>
+                            </section>
+
+                            <section class="personal">
+                                <h3>Pessoais:</h3>
+                                <ul id="profile.skills.softSkills">
+                                    <li>loading...</li>
+                                    <li>loading...</li>
+                                    <li>loading...</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+
+                </section>
+
+                 <section class="acordeon">
+                    <button class="trigger">
+                            Idiomas
+                    </button>
+
+                    <div class="content">
+                        <div>
+                            <ul class="lenguages" id="profile.languages">
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="acordeon">
+                    <button class="trigger">
+                            Portifolio
+                    </button>
+
+                    <div class="content">
+                        <div>
+                            <ul class="portifolio" id="profile.portifolio">
+                            
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="acordeon">
+                    <button class="trigger">
+                            Experiencia
+                    </button>
+
+                    <div class="content">
+                        <div>
+                            <ul class="experencia" id="profile.professionalExperience">
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        
+        <script src="/assets/js/acordeon.js"></script>
+        <script src="/assets/js/api.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>
