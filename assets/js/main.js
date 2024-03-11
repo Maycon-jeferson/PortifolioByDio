@@ -62,6 +62,11 @@ function updateProfessionalExperience(profileData){
     }).join('')
 }
 
+function updateGitHub(profileData){
+    const gitHub = document.getElementById('profile.gitHub')
+    gitHub.innerHTML = profileData.github.map(git => `<a href="${git.link}">${git.name}</a>`).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateprofileInfo(profileData)
@@ -70,4 +75,5 @@ function updateProfessionalExperience(profileData){
     updadateLanguages(profileData)
     updadatePortifolio(profileData)
     updateProfessionalExperience(profileData)
+    updateGitHub(profileData)
 })()
