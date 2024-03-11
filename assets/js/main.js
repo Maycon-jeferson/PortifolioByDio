@@ -64,7 +64,7 @@ function updateProfessionalExperience(profileData){
 
 function updateGitHub(profileData){
     const gitHub = document.getElementById('profile.gitHub')
-    gitHub.innerHTML = profileData.github.map(git => `<a href="${git.link}">${git.name}</a>`).join('')
+    gitHub.innerHTML = profileData.github.map(git => `<a href="${git.link}" target="_blank">${git.name}</a>`).join('')
 }
 
 (async () => {
