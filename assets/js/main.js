@@ -77,3 +77,7 @@ function updateGitHub(profileData){
     updateProfessionalExperience(profileData)
     updateGitHub(profileData)
 })()
+
+//arrow function que inicialmente cria uma vsriavel para armazenar o json
+
+//cada funcao executa uma acao consultando o json e suas respectivas variaveis

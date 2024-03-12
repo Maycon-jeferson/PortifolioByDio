@@ -9,3 +9,5 @@ async function fetchProfileData(){
 //fetch é usada para fazer uma solicitação HTTP para a URL especificada.
 //await aguarda a conclusão da solicitação antes de continuar a execução do código.
 //O método .json() é utilizado para extrair o corpo da resposta como um objeto JSON
+
+//a function fetchProfileData recebe e armazena o arquivo json fornecido
