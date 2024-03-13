@@ -78,6 +78,17 @@ function updateGitHub(profileData){
     updateGitHub(profileData)
 })()
 
-//arrow function que inicialmente cria uma vsriavel para armazenar o json
+// Funções de atualização:
+// updateXXXX(profileData): Atualiza as informações básicas do perfil, como foto, nome, cargo, localização, número de telefone e e-mail.Atualiza as habilidades técnicas do perfil, tualiza os projetos do portfólio do perfil. Cada projeto é uma lista com um título e um link para o projeto, atualiza a experiência profissional do perfil. Cada experiência é uma lista com um título, um período e uma descrição. atualiza os links para os perfis do GitHub associados ao perfil.
 
+// Execução assíncrona:
+// A função de flecha assíncrona anônima é usada para executar o código de forma assíncrona.
+// fetchProfileData() é uma função assíncrona que parece recuperar os dados do perfil do usuário de uma fonte externa, ou seja do arquivo json
+
+// Atualização do perfil:
+// Dentro da expressão de função assíncrona, os dados do perfil são recuperados usando await fetchProfileData().
+// Em seguida, cada função de atualização é chamada com os dados do perfil, atualizando as diferentes partes do perfil na página HTML.
+
+
+//arrow function que inicialmente cria uma vsriavel para armazenar o jsons
 //cada funcao executa uma acao consultando o json e suas respectivas variaveis
