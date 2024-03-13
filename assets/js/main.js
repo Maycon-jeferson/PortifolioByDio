@@ -13,12 +13,10 @@ function updateprofileInfo(profileData) {
     location.innerText = profileData.location
 
     const phone = document.getElementById('profile.phone')
-    phone.innerText = profileData.phone
-    phone.href = `tel:${profileData.phone}`
+    phone.innerHTML = `<a href="tel:${profileData.phone}">${profileData.phone}</a>`
 
     const email = document.getElementById('profile.email')
-    email.innerText = profileData.email
-    email.href = `mailto:${profileData.email}`
+    email.innerHTML = `<a href="mailto:${profileData.email}">${profileData.email}</a>`
 }
 
 function updateSoftSkills(profileData){
